@@ -4,7 +4,7 @@ import IndexPage from "@/components/HomeScreen/IndexPage";
 export default function Home() {
 
   return (
-    <div className="min-h-screen max-w-screen bg-gradient-to-b from-black via-gray-950 to-gray-900">
+    <div className="min-h-screen min-w-screen bg-gradient-to-b from-black via-gray-950 to-gray-900">
       <IndexPage />
 
     </div>

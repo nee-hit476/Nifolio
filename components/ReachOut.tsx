@@ -11,12 +11,12 @@ const ReachOut = () => {
 
     return <section className="text-amber-50 mt-5">
         <SectionTitle text="Reach out to me ." className="text-xl font-semibold"/>
-        <div dangerouslySetInnerHTML={{__html: NishidhReachOut}} className="w-9/12 text-lg"></div>
+        <div dangerouslySetInnerHTML={{__html: NishidhReachOut}} className="sm:w-9/12 text-lg"></div>
         <div className="mt-2 flex flex-row gap-2">
             <Badges icon={<FaXTwitter className="text-amber-50 size-6" />} />
             <Badges icon={<FaDiscord className="text-amber-50 size-6" />} />
             <Badges icon={<MdEmail className="text-amber-50 size-6" />} />
-            <Badges icon={<BsFillSuitcaseLgFill className="text-amber-50 size-6 mr-2 font-semibold" />} text="Hire Me" />
+            <Badges icon={<BsFillSuitcaseLgFill className="text-amber-50 size-6 mr-2" />} text="Hire Me" />
         </div>
     </section>
 }

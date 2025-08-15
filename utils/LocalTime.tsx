@@ -1,4 +1,5 @@
-import { use, useEffect, useState } from "react"
+"use client"
+import { useEffect, useState } from "react"
 
 
 const LocalTime = () => {
@@ -12,7 +13,7 @@ const LocalTime = () => {
         return () => clearInterval(timer);
     }, []);
 
-    return <div>
+    return <div className="text-gray-300/70 text-sm">
         {localTime.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit"})}
     </div>
 }

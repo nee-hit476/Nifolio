@@ -1,7 +1,8 @@
 import { Component } from "react";
 
 export interface BadgesProps {
-    icon: React.ReactElement
+    icon: React.ReactElement;
+    text?: string;
 }
 
 export interface ScreenProps {

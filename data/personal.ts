@@ -73,6 +73,34 @@ const VisibleProjects = [
         github: "https://github.com/nee-hit476/Pay-Chiks",
         skill: ["AngularJS", "AngularCLI", "TypeScript", "JavaScript", "HTML5", "CSS3", "TailwindCSS", "Node.js", "Express.js", "PrismaORM", "PostgreSQL", "Git", "GitHub","Vercel", "Docker", "Redux"]
     },
+    {
+        id: 2,
+        img: "/assets/images/paychiks.png",
+        title: "PayChiks",
+        status: true,
+        content: "A payment gateway for India.Pay-Chiks is a payment gateway that allows users to pay for products or service. It provides a secure and convenient way for users to make payments, while also offering a range of features and benefits.",
+        url: "https://github.com/nee-hit476/Pay-Chiks",
+        github: "https://github.com/nee-hit476/Pay-Chiks",
+        skill: ["AngularJS", "AngularCLI", "TypeScript", "JavaScript", "HTML5", "CSS3", "TailwindCSS", "Node.js", "Express.js", "PrismaORM", "PostgreSQL", "Git", "GitHub","Vercel", "Docker", "Redux"]
+    },{
+        id: 3,
+        img: "/assets/images/paychiks.png",
+        title: "PayChiks",
+        status: true,
+        content: "A payment gateway for India.Pay-Chiks is a payment gateway that allows users to pay for products or service. It provides a secure and convenient way for users to make payments, while also offering a range of features and benefits.",
+        url: "https://github.com/nee-hit476/Pay-Chiks",
+        github: "https://github.com/nee-hit476/Pay-Chiks",
+        skill: ["AngularJS", "AngularCLI", "TypeScript", "JavaScript", "HTML5", "CSS3", "TailwindCSS", "Node.js", "Express.js", "PrismaORM", "PostgreSQL", "Git", "GitHub","Vercel", "Docker", "Redux"]
+    },{
+        id: 4,
+        img: "/assets/images/paychiks.png",
+        title: "PayChiks",
+        status: true,
+        content: "A payment gateway for India.Pay-Chiks is a payment gateway that allows users to pay for products or service. It provides a secure and convenient way for users to make payments, while also offering a range of features and benefits.",
+        url: "https://github.com/nee-hit476/Pay-Chiks",
+        github: "https://github.com/nee-hit476/Pay-Chiks",
+        skill: ["AngularJS", "AngularCLI", "TypeScript", "JavaScript", "HTML5", "CSS3", "TailwindCSS", "Node.js", "Express.js", "PrismaORM", "PostgreSQL", "Git", "GitHub","Vercel", "Docker", "Redux"]
+    },
 ]
 
 export {

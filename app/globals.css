@@ -4,3 +4,7 @@ html, body {
   height: 100%;
   margin: 0;
 }
+
+.showMore-btn {
+  @apply select-none bg-gray-300/10 w-full px-2 py-1 rounded-md hover:bg-gray-300/20 transition-colors duration-100;
+}

@@ -6,8 +6,9 @@ import InfoTipProject from "./InfoTipProject";
 import { FiGithub } from "react-icons/fi";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import { ProjectBoxProps } from "@/types/project";
 
-const ProjectBox = ({ title, status, img, content, url, github, skill }: any) => {
+const ProjectBox = ({ title, status, img, content, url, github, skill }: ProjectBoxProps) => {
 
     const [open, setOpen] = useState(false)
 
@@ -26,7 +27,7 @@ const ProjectBox = ({ title, status, img, content, url, github, skill }: any) =>
         }
     }, [])
 
-    return <div onClick={() => setOpen((prev) => !prev)} className="project-box bg-gray-400/10 cursor-pointer hover:bg-gray-300/10 transition-colors duration-100 border border-zinc-700 rounded-md md:w-9/12 py-3 px-2 mb-5 text-amber-50">
+    return <div onClick={() => setOpen((prev) => !prev)} className="project-box bg-gray-400/10 cursor-pointer hover:bg-gray-300/10 transition-colors duration-100 border border-zinc-700 rounded-md md:w-9/12 py-3 px-2 mb-3 text-amber-50">
 
         <div className="flex md:flex-row flex-col gap-4">
             <div className="basis-[22%]">
@@ -115,7 +116,7 @@ const ProjectBox = ({ title, status, img, content, url, github, skill }: any) =>
                     <div className="flex border-t border-zinc-700 w-[97%] mt-3 md:mt-3 mx-auto" />
                     <div className="flex justify-between items-center md:py-2 py-3 px-3 transition-all duration-100">
                         <div className="flex flex-wrap gap-1.5 select-none">
-                            {skill.map((skill: any, index: number) => (
+                            {skill.map((skill, index) => (
                                 <p
                                     key={index}
                                     className="bg-gray-200/10 border border-zinc-700 px-2 py-0.5 rounded-md text-sm"

@@ -1,5 +1,6 @@
+import { InfoTipProjectProps } from "@/types/project";
 
-const InfoTipProject = ({children, text}: any) => {
+const InfoTipProject = ({children, text}: InfoTipProjectProps) => {
 
     return <div className="relative flex items-center select-none ">
         <div className="group relative flex">

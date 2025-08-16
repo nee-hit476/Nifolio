@@ -15,16 +15,16 @@ const IndexPage = () => {
             <LocalTime />
         </div>
         <InfoTip />
-        <AnimatedWrapper delay={0.25}>
+        <AnimatedWrapper delay={0.15}>
             <AboutMe />
         </AnimatedWrapper>
-        <AnimatedWrapper delay={0.3}>
+        <AnimatedWrapper delay={0.25}>
             <ReachOut />
         </AnimatedWrapper>
         <AnimatedWrapper delay={0.35}>
             <Skills />
         </AnimatedWrapper>
-        <AnimatedWrapper delay={0.4}>
+        <AnimatedWrapper delay={0.45}>
             <Projects />
         </AnimatedWrapper>
     </Screen>

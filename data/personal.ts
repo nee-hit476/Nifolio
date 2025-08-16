@@ -8,6 +8,7 @@ import { FaFlutter } from "react-icons/fa6";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { BsGlobe2 } from "react-icons/bs";
 import { MdSettingsApplications } from "react-icons/md";
+import { stat } from "fs";
 
 
 
@@ -61,10 +62,22 @@ const NishidhSkills = [
   { id: 35, name: "Bun", logo: "bun", icon: SiBun }
 ];
 
-
+const VisibleProjects = [
+    {
+        id: 1,
+        img: "/assets/images/paychiks.png",
+        title: "PayChiks",
+        status: true,
+        content: "A payment gateway for India.Pay-Chiks is a payment gateway that allows users to pay for products or service. It provides a secure and convenient way for users to make payments, while also offering a range of features and benefits.",
+        url: "https://github.com/nee-hit476/Pay-Chiks",
+        github: "https://github.com/nee-hit476/Pay-Chiks",
+        skill: ["AngularJS", "AngularCLI", "TypeScript", "JavaScript", "HTML5", "CSS3", "TailwindCSS", "Node.js", "Express.js", "PrismaORM", "PostgreSQL", "Git", "GitHub","Vercel", "Docker", "Redux"]
+    },
+]
 
 export {
     NishidhAbout,
     NishidhReachOut,
-    NishidhSkills
+    NishidhSkills,
+    VisibleProjects,
 }

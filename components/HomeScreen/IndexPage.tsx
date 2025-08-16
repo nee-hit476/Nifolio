@@ -5,6 +5,8 @@ import AboutMe from "../AboutMe";
 import AnimatedWrapper from "@/utils/AnimatedWrapper";
 import ReachOut from "../ReachOut";
 import Skills from "../Skills";
+import Projects from "../ProjectComponent/Projects";
+
 
 const IndexPage = () => {
 
@@ -21,6 +23,9 @@ const IndexPage = () => {
         </AnimatedWrapper>
         <AnimatedWrapper delay={0.35}>
             <Skills />
+        </AnimatedWrapper>
+        <AnimatedWrapper delay={0.4}>
+            <Projects />
         </AnimatedWrapper>
     </Screen>
 }

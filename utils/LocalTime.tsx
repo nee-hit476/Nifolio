@@ -3,18 +3,21 @@ import { useEffect, useState } from "react"
 
 
 const LocalTime = () => {
-    const [localTime, setLocalTime] = useState(new Date());
+    const [localTime, setLocalTime] = useState<string>("");
 
     useEffect(() => {
+        const date = new Date();
         const timer = setInterval(() => {
-            setLocalTime(new Date);
+            setLocalTime(date.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit"}));
         }, 1000);
 
         return () => clearInterval(timer);
     }, []);
 
     return <div className="text-gray-300/70 text-sm">
-        {localTime.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit"})}
+        {/* {localTime.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit"})}
+         */}
+         {localTime}
     </div>
 }
 

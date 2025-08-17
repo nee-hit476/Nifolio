@@ -1,3 +1,4 @@
+import License from "./LicenseComponent/License";
 import Badges from "./Badges";
 import InfoTip from "./InfoTip";
 import SectionTitle from "./SectionTitle";
@@ -8,6 +9,7 @@ import ProjectBox from "./ProjectBox";
 import ReachOut from "./ReachOut";
 import Skills from "./Skills";
 import Footer from "./PageComponent/Footer";
+import OSS from "./OSSComponent/OSS";
 
 export  {
     Badges,
@@ -19,5 +21,7 @@ export  {
     ProjectBox,
     ReachOut,
     Skills,
-    Footer
+    Footer,
+    OSS,
+    License
 }

@@ -7,6 +7,8 @@ import ReachOut from "../ReachOut";
 import Skills from "../Skills";
 import Projects from "../ProjectComponent/Projects";
 import Footer from "../PageComponent/Footer";
+import OSS from "../OSSComponent/OSS";
+import License from "../LicenseComponent/License";
 
 
 const IndexPage = () => {
@@ -29,8 +31,15 @@ const IndexPage = () => {
             <Projects />
         </AnimatedWrapper>
         <AnimatedWrapper delay={0.55}>
+            <OSS />
+        </AnimatedWrapper>
+        <AnimatedWrapper delay={0.65}>
+            <License />
+        </AnimatedWrapper>
+        <AnimatedWrapper delay={0.75}>
             <Footer />
         </AnimatedWrapper>
+
 
     </Screen>
 }

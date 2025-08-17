@@ -16,8 +16,8 @@ export interface SectionTitleProps {
 }
 
 export interface InfoTipProjectProps {
-    children: React.ReactNode;
-    text: string;
+    children?: React.ReactNode;
+    text?: string;
 }
 
 export interface ProjectBoxProps {
@@ -28,4 +28,10 @@ export interface ProjectBoxProps {
     url: string;
     github: string;
     skill: string[];
+}
+
+export interface LicenseBoxProps {
+    text: string;
+    img: string;
+    link: string;
 }

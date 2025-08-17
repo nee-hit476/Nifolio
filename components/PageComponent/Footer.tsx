@@ -11,7 +11,9 @@ const Footer = () => {
             <div className="text-amber-50/70">
           © 2025 Nihit. All rights reserved.
         </div>
-        <IoMail className="size-6 text-amber-50/70" />
+        <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMhsLVFJDbThhFgtMfXmHVfrPCljfxtHCHTxslHDGcwtSRssHTjtqttdcHQJGqXxDMHpdC">
+            <IoMail className="size-6 text-amber-50/70" />
+        </a>
         </div>
       </div>
     </div>

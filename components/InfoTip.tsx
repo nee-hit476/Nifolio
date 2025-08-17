@@ -18,10 +18,10 @@ const InfoTip = () => {
             </div>
         <SectionTitle text="Software Engineer" className="text-gray-300/70 font-normal"/>
         <div className="flex flex-row gap-2 mt-3">
-        <Badges icon={<FaGithub className="text-amber-50 size-6" />} />
-        <Badges icon={<FaXTwitter className="text-amber-50 size-6" />} />
-        <Badges icon={<FaLinkedin className="text-amber-50 size-6" />} />
-        <Badges icon={<SiLeetcode className="text-amber-50 size-6" />} />
+        <Badges icon={<FaGithub className="text-amber-50 size-6" />} link="http://github.com/nee-hit476/"/>
+        <Badges icon={<FaXTwitter className="text-amber-50 size-6" />} link="https://x.com/ins_Nihit"/>
+        <Badges icon={<FaLinkedin className="text-amber-50 size-6" />} link="https://www.linkedin.com/in/nishidh-s-060571291/"/>
+        <Badges icon={<SiLeetcode className="text-amber-50 size-6" />} link="https://leetcode.com/u/Nihit04cancer/" />
       </div>
     </AnimatedWrapper>
 }

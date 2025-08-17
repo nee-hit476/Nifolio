@@ -66,8 +66,8 @@ const VisibleProjects = [
     {
         id: 1,
         img: "/assets/images/paychiks.png",
-        title: "PayChiks",
-        status: true,
+        title: "PayChiks - Modern Dealing",
+        status: false,
         content: "A payment gateway for India.Pay-Chiks is a payment gateway that allows users to pay for products or service. It provides a secure and convenient way for users to make payments, while also offering a range of features and benefits.",
         url: "https://github.com/nee-hit476/Pay-Chiks",
         github: "https://github.com/nee-hit476/Pay-Chiks",
@@ -75,31 +75,31 @@ const VisibleProjects = [
     },
     {
         id: 2,
-        img: "/assets/images/paychiks.png",
-        title: "PayChiks",
+        img: "/assets/images/Nitify.png",
+        title: "Nitify - Your Second Brain",
         status: true,
-        content: "A payment gateway for India.Pay-Chiks is a payment gateway that allows users to pay for products or service. It provides a secure and convenient way for users to make payments, while also offering a range of features and benefits.",
-        url: "https://github.com/nee-hit476/Pay-Chiks",
-        github: "https://github.com/nee-hit476/Pay-Chiks",
-        skill: ["AngularJS", "AngularCLI", "TypeScript", "JavaScript", "HTML5", "CSS3", "TailwindCSS", "Node.js", "Express.js", "PrismaORM", "PostgreSQL", "Git", "GitHub","Vercel", "Docker", "Redux"]
+        content: "A modern note-taking app that lets you save anything you want to revisit later — whether it’s a tweet, a video, or any useful resource. Built with React for the frontend, Express.js for the backend, and styled with Tailwind CSS. The backend is deployed on Render, using an ODM for database management.",
+        url: "https://github.com/nee-hit476/",
+        github: "https://github.com/nee-hit476/",
+        skill: ["ReactJS", "ContextAPI", "TypeScript", "JavaScript", "HTML5", "CSS3", "TailwindCSS", "Node.js", "Express.js", "bycrypt", "cookieParser", "Git", "GitHub","JWT", "Redux"]
     },{
         id: 3,
-        img: "/assets/images/paychiks.png",
-        title: "PayChiks",
+        img: "/assets/images/TypeZ.png",
+        title: "TypeZ – Multi-mode typing game",
         status: true,
-        content: "A payment gateway for India.Pay-Chiks is a payment gateway that allows users to pay for products or service. It provides a secure and convenient way for users to make payments, while also offering a range of features and benefits.",
-        url: "https://github.com/nee-hit476/Pay-Chiks",
-        github: "https://github.com/nee-hit476/Pay-Chiks",
-        skill: ["AngularJS", "AngularCLI", "TypeScript", "JavaScript", "HTML5", "CSS3", "TailwindCSS", "Node.js", "Express.js", "PrismaORM", "PostgreSQL", "Git", "GitHub","Vercel", "Docker", "Redux"]
+        content: "A typing game website built in June 2025 for users looking to enhance their typing speed and accuracy. It offers multiple modes such as Infinite, A–Z, Long Paragraph, and Trial, making practice engaging and versatile. Designed to provide both fun and skill-building experiences.",
+        url: "https://type-z-liart.vercel.app/infinite-typing",
+        github: "https://github.com/nee-hit476/TypeZ",
+        skill: ["ReactJS", "ContextAPI", "TypeScript", "JavaScript", "HTML5", "CSS3", "TailwindCSS", "KeyboardEvents", "Framer-Motion", "Git", "GitHub"]
     },{
         id: 4,
-        img: "/assets/images/paychiks.png",
-        title: "PayChiks",
-        status: true,
+        img: "/assets/images/GenAI.png",
+        title: "My AI Girl - GenAI Project",
+        status: false,
         content: "A payment gateway for India.Pay-Chiks is a payment gateway that allows users to pay for products or service. It provides a secure and convenient way for users to make payments, while also offering a range of features and benefits.",
-        url: "https://github.com/nee-hit476/Pay-Chiks",
-        github: "https://github.com/nee-hit476/Pay-Chiks",
-        skill: ["AngularJS", "AngularCLI", "TypeScript", "JavaScript", "HTML5", "CSS3", "TailwindCSS", "Node.js", "Express.js", "PrismaORM", "PostgreSQL", "Git", "GitHub","Vercel", "Docker", "Redux"]
+        url: "https://type-z-liart.vercel.app/infinite-typing",
+        github: "https://github.com/nee-hit476/TypeZ",
+        skill: ["ReactJS", "ContextAPI", "TypeScript", "JavaScript", "HTML5", "CSS3", "TailwindCSS", "KeyboardEvents", "Framer-Motion", "Git", "GitHub"]
     },
 ]
 

@@ -3,6 +3,7 @@ import { Component } from "react";
 export interface BadgesProps {
     icon: React.ReactElement;
     text?: string;
+    link?: string;
 }
 
 export interface ScreenProps {

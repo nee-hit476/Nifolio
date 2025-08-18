@@ -158,7 +158,7 @@ const OSSProjects = [
         img: "/assets/images/PolyPixels.png",
         title: "Holes: Martyr of Dirt",
         status: true,
-        content: "This PR enhances gameplay by automatically clearing small dirt nodes as players walk over them, making movement smoother. It introduces a new clearDirtAroundPlayer() function in diggingFunctions.js and updates input.js to handle player-triggered dirt clearing. The logic is fully integrated with the existing socket system for multiplayer sync.",
+        content: "Worked on enhances gameplay by automatically clearing small dirt nodes as players walk over them, making movement smoother. It introduces a new clearDirtAroundPlayer() function in diggingFunctions.js and updates input.js to handle player-triggered dirt clearing. The logic is fully integrated with the existing socket system for multiplayer sync.",
         url: "https://muddygame.net/game/",
         github: "https://github.com/PolyPixels/Holes_Client/pull/43",
         skill: [
@@ -194,7 +194,7 @@ const LicenseCert = [
     },
     {
         id: 2,
-        name: "JavaScript Algorithms and Date Structures",
+        name: "JavaScript Algorithms and Data Structures",
         img: "/assets/images/JS.png",
         link: "https://www.freecodecamp.org/certification/fcc-2222c476-1828-4fcb-bd35-8fe8b15820a4/javascript-algorithms-and-data-structures-v8"
     },

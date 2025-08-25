@@ -28,7 +28,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <base href="/Nifolio" />
         <link rel="icon" href="/favicon.ico?v=2" />
       </head>
       <body

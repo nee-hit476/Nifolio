@@ -77,6 +77,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/Nifolio/favicon.ico?v=2" />
+        <meta name="robots" content="index, follow" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

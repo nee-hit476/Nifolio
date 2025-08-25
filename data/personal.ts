@@ -65,7 +65,7 @@ const NishidhSkills = [
 const VisibleProjects = [
     {
         id: 1,
-        img: "/assets/images/paychiks.png",
+        img: "/Nifolio/assets/images/paychiks.png",
         title: "PayChiks",
         status: false,
         content: "A payment gateway for India.Pay-Chiks is a payment gateway that allows users to pay for products or service. It provides a secure and convenient way for users to make payments, while also offering a range of features and benefits.",
@@ -75,7 +75,7 @@ const VisibleProjects = [
     },
     {
         id: 2,
-        img: "/assets/images/Nitify.png",
+        img: "/Nifolio/assets/images/Nitify.png",
         title: "Nitify - Second Brain",
         status: true,
         content: "A modern note-taking app that lets you save anything you want to revisit later — whether it’s a tweet, a video, or any useful resource. Built with React for the frontend, Express.js for the backend, and styled with Tailwind CSS. The backend is deployed on Render, using an ODM for database management.",
@@ -84,7 +84,7 @@ const VisibleProjects = [
         skill: ["ReactJS", "ContextAPI", "TypeScript", "JavaScript", "HTML5", "CSS3", "TailwindCSS", "Node.js", "Express.js", "bycrypt", "cookieParser", "Git", "GitHub", "JWT", "Redux"]
     }, {
         id: 3,
-        img: "/assets/images/TypeZ.png",
+        img: "/Nifolio/assets/images/TypeZ.png",
         title: "TypeZ – typing game",
         status: true,
         content: "A typing game website built in June 2025 for users looking to enhance their typing speed and accuracy. It offers multiple modes such as Infinite, A–Z, Long Paragraph, and Trial, making practice engaging and versatile. Designed to provide both fun and skill-building experiences.",
@@ -93,7 +93,7 @@ const VisibleProjects = [
         skill: ["ReactJS", "ContextAPI", "TypeScript", "JavaScript", "HTML5", "CSS3", "TailwindCSS", "KeyboardEvents", "Framer-Motion", "Git", "GitHub"]
     }, {
         id: 5,
-        img: "/assets/images/terminal.png",
+        img: "/Nifolio/assets/images/terminal.png",
         title: "GUI Terminal - Clang",
         status: true,
         content: "allowing users to enter and execute shell commands within a simple graphical interface. Integrated features like command history display, scrollable output, and safe process handling with popen/pclose. Showcases event-driven programming, GUI development, and system command execution in a desktop application.",
@@ -108,7 +108,7 @@ const VisibleProjects = [
 const OSSProjects = [
     {
         id: 1,
-        img: "/assets/images/feathers.png",
+        img: "/Nifolio/assets/images/feathers.png",
         title: "FeatherIcons.com",
         status: true,
         content: "Worked on fixing animation glitches and pointer movement issues during search in a project with complex motion transitions. Resolved jitter problems and optimized performance using Framer Motion. Built with React, TailwindCSS, and Framer Motion.",
@@ -155,7 +155,7 @@ const OSSProjects = [
     },
     {
         id: 4,
-        img: "/assets/images/PolyPixels.png",
+        img: "/Nifolio/assets/images/PolyPixels.png",
         title: "Holes: Martyr of Dirt",
         status: true,
         content: "Worked on enhances gameplay by automatically clearing small dirt nodes as players walk over them, making movement smoother. It introduces a new clearDirtAroundPlayer() function in diggingFunctions.js and updates input.js to handle player-triggered dirt clearing. The logic is fully integrated with the existing socket system for multiplayer sync.",
@@ -189,19 +189,19 @@ const LicenseCert = [
     {
         id: 1,
         name: "Frontend Developer (React)",
-        img: "/assets/images/ReactCert.png",
+        img: "/Nifolio/assets/images/ReactCert.png",
         link: "https://www.hackerrank.com/certificates/ecf2872868aa"
     },
     {
         id: 2,
         name: "JavaScript Algorithms and Data Structures",
-        img: "/assets/images/JS.png",
+        img: "/Nifolio/assets/images/JS.png",
         link: "https://www.freecodecamp.org/certification/fcc-2222c476-1828-4fcb-bd35-8fe8b15820a4/javascript-algorithms-and-data-structures-v8"
     },
     {
         id: 3,
         name: "GenAI - Certification",
-        img: "/assets/images/google.png",
+        img: "/Nifolio/assets/images/google.png",
         link: "https://certificates.simplicdn.net/share/8786091_91682011755177275338.png"
     }
 ]

@@ -64,6 +64,16 @@ const NishidhSkills = [
 
 const VisibleProjects = [
     {
+        id: 0,
+        img: "/Nifolio/assets/images/qubts.png",
+        title: "Qubts - Process Cleaner",
+        status: false,
+        content: "Qubts is a desktop utility application built with Electron and Next.js, using IPC (Inter-Process Communication) for smooth interaction between processes. It runs in the background to monitor whether the system is up to date, while also scanning for temporary files and browser caches. Acting as a lightweight desktop cleaner, Qubts helps maintain system performance by providing both background monitoring and on-demand cleaning feature",
+        url: "",
+        github: "",
+        skill: ["Electron", "Electron-builder", "IPC", "Redux", "ReduxRTK", "Child_process", "Nextjs", "Docker", "Prisma", "ExpressJS", "Postgres", "Git", "Github", "Tailwindcss", "NodeJS"]
+    },
+    {
         id: 1,
         img: "/Nifolio/assets/images/paychiks.png",
         title: "PayChiks",

@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     images: ["https://nee-hit476.github.io/Nifolio/og-image.png"],
   },
   icons: {
-    icon: "/Nifolio/favicon.ico",
+    icon: "/favicon.ico",
     apple: "/og-image.png",
   },
   metadataBase: new URL("https://nee-hit476.github.io/Nifolio/"),
@@ -76,7 +76,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/Nifolio/favicon.ico?v=2" />
+        <link rel="icon" href="/favicon.ico?v=2" />
         <meta name="robots" content="index, follow" />
       </head>
       <body

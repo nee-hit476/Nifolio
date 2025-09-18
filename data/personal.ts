@@ -8,8 +8,6 @@ import { FaFlutter } from "react-icons/fa6";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { BsGlobe2 } from "react-icons/bs";
 import { MdSettingsApplications } from "react-icons/md";
-import { stat } from "fs";
-
 
 
 const NishidhAbout = `
@@ -64,13 +62,24 @@ const NishidhSkills = [
 
 const VisibleProjects = [
     {
+        id: 6,
+        img: "/assets/images/labCert.png",
+        title: "Devrel Lab Certification",
+        status: true,
+        content: "Devrel Lab Cert is a platform that allows contributors to claim certificates based on their valuable pull request contributions to DevRel Lab's (owned by me) open-source projects. Maintaing and handling pr's are maintained by us. I implemented unique credential IDs and credential URLs for verification. The platform uses the ES256 algorithm for secure authentication, Prisma ORM with PostgreSQL for database management, and Next.js on the client side to enhance performance, SEO, and server-side rendering. Also used Redux RTK for better state management.",
+        url: "https://devrel-labs.github.io/devrel-labs/",
+        github: "https://github.com/orgs/devrel-labs",
+        skill: ["NextJS", "ContextAPI", "TypeScript", "JavaScript", "JSX", "CSS3", "TailwindCSS", "Node.js", "Express.js", "bycrypt", "ESA256", "cookieParser", "Git", "GitHub", "JWT", "Redux", "RTX", "Prisma", "Docker"]
+
+    },
+    {
         id: 0,
         img: "/assets/images/qubts.png",
         title: "Qubts - Process Cleaner",
         status: false,
         content: "Qubts is a desktop utility application built with Electron and Next.js, using IPC (Inter-Process Communication) for smooth interaction between processes. It runs in the background to monitor whether the system is up to date, while also scanning for temporary files and browser caches. Acting as a lightweight desktop cleaner, Qubts helps maintain system performance by providing both background monitoring and on-demand cleaning feature",
-        url: "",
-        github: "",
+        url: "https://github.com/nee-hit476/Qubts-Process-Cleaner",
+        github: "https://github.com/nee-hit476/Qubts-Process-Cleaner",
         skill: ["Electron", "Electron-builder", "IPC", "Redux", "ReduxRTK", "Child_process", "Nextjs", "Docker", "Prisma", "ExpressJS", "Postgres", "Git", "Github", "Tailwindcss", "NodeJS"]
     },
     {

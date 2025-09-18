@@ -30,6 +30,13 @@ export const metadata: Metadata = {
     "Web Developer",
     "Open Source Contributor",
     "Hackathon Developer",
+    "Nihit Singh",
+    "xnishdh.space",
+    "quebits",
+    "devrel labs",
+    "Devrel labs nihit",
+    "qibits",
+    "Quebits IT services"
   ],
   authors: [{ name: "Nishidh Singh", url: "https://github.com/nee-hit476" }],
   openGraph: {
@@ -63,7 +70,7 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://nee-hit476.github.io/Nifolio/"),
   alternates: {
-    canonical: "https://nee-hit476.github.io/Nifolio/",
+    canonical: "https://xnishidh.space/",
   },
 };
 

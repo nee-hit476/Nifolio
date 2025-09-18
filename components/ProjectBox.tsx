@@ -32,7 +32,7 @@ const ProjectBox = ({ title, status, img, content, url, github, skill }: Project
         <div className="flex md:flex-row flex-col gap-4">
             <div className="basis-[22%]">
                 <Image
-                    className="rounded-md md:h-[130px] h-[150px] w-full object-cover"
+                    className="rounded-md h-[150px] md:h-full w-full object-cover"
                     src={img}
                     alt="Project Image"
                     width={200}

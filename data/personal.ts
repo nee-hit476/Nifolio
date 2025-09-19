@@ -77,7 +77,7 @@ const VisibleProjects = [
         img: "/assets/images/qubts.png",
         title: "Qubts - Process Cleaner",
         status: false,
-        content: "Qubts is a desktop utility application built with Electron and Next.js, using IPC (Inter-Process Communication) for smooth interaction between processes. It runs in the background to monitor whether the system is up to date, while also scanning for temporary files and browser caches. Acting as a lightweight desktop cleaner, Qubts helps maintain system performance by providing both background monitoring and on-demand cleaning feature",
+        content: "Qubts is a desktop utility application built with Electron and Next.js, using IPC (Inter-Process Communication) for smooth interaction between processes. It runs in the background to monitor whether the system is up to date, while also scanning for temporary files and browser caches. Acting as a lightweight desktop cleaner, Qubts helps maintain system performance by providing both background monitoring and on-demand cleaning feature. Handling a team with more than 6 members",
         url: "https://github.com/nee-hit476/Qubts-Process-Cleaner",
         github: "https://github.com/nee-hit476/Qubts-Process-Cleaner",
         skill: ["Electron", "Electron-builder", "IPC", "Redux", "ReduxRTK", "Child_process", "Nextjs", "Docker", "Prisma", "ExpressJS", "Postgres", "Git", "Github", "Tailwindcss", "NodeJS"]

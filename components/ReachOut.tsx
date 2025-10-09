@@ -16,7 +16,7 @@ const ReachOut = () => {
             <Badges icon={<FaXTwitter className="text-amber-50 size-6" />} link="https://x.com/ins_Nihit" />
             <Badges icon={<FaDiscord className="text-amber-50 size-6" />} link="https://discord.gg/pA4ysQvh" />
             <Badges icon={<MdEmail className="text-amber-50 size-6" />} link="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMhsLVFJDbThhFgtMfXmHVfrPCljfxtHCHTxslHDGcwtSRssHTjtqttdcHQJGqXxDMHpdC" />
-            <Badges icon={<BsFillSuitcaseLgFill className="text-amber-50 size-6 mr-2" />} text="Hire Me" link="https://drive.google.com/file/d/1eS7wGfuwBEWpIlf7QTqJTL-DbJJvMLBa/view?usp=sharing"/>
+            <Badges icon={<BsFillSuitcaseLgFill className="text-amber-50 size-6 mr-2" />} text="Hire Me" link="https://docs.google.com/document/d/1jBn7Akf76fizSu37fhcgL3-vTetKC651BIF-5aWsN54/edit?usp=sharing"/>
         </div>
     </section>
 }

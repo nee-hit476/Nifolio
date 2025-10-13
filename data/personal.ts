@@ -63,7 +63,7 @@ const NishidhSkills = [
 const VisibleProjects = [
     {
         id: 9,
-        img: "/assets/images/jenji.png",
+        img: "/assets/images/image.png",
         title: "Jenji — SS Safety Object Detection",
         status: false,
         content: "Jenji is a real-time object detection application built to detect critical safety objects on a space station using YOLOv11. It leverages Python, Flask-SocketIO, OpenCV, and React to stream and annotate live webcam feeds, with a WebView desktop launcher for easy deployment. Handling a team of 3 members in the project.",

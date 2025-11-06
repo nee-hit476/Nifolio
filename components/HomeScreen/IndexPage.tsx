@@ -9,6 +9,8 @@ import Projects from "../ProjectComponent/Projects";
 import Footer from "../PageComponent/Footer";
 import OSS from "../OSSComponent/OSS";
 import License from "../LicenseComponent/License";
+import Spotify from "../Spotify";
+import SectionTitle from "../SectionTitle";
 
 
 const IndexPage = () => {
@@ -32,6 +34,10 @@ const IndexPage = () => {
         </AnimatedWrapper>
         <AnimatedWrapper delay={0.55}>
             <OSS />
+        </AnimatedWrapper>
+        <AnimatedWrapper delay={0.55}>
+            <SectionTitle text="Join Spotify with me ." className="text-xl font-semibold"/>
+            <Spotify />
         </AnimatedWrapper>
         <AnimatedWrapper delay={0.65}>
             <License />
